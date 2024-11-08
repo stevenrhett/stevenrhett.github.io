@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery & Contact - Second Chance Employment</title>
+    <meta name="description" content="Explore our gallery of success stories and connect with our second chance employment support team.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+    <!-- Populated by JavaScript -->
+</nav>
+
+<main class="main-content">
+    <header class="page-header">
+        <h1>Visual Journey</h1>
+        <p class="subtitle">Exploring the path from incarceration to freedom</p>
+    </header>
+
+    <section class="choice-gallery" aria-labelledby="choice-heading">
+        <h2 id="choice-heading" class="visually-hidden">Life Choices</h2>
+        <div class="choice-container">
+            <figure class="gallery-item">
+                <img src="./assets/doc.JPG"
+                     loading="lazy"
+                     alt="Image representing the consequences of poor choices"
+                     width="400"
+                     height="300">
+                <figcaption>The Path of Restriction</figcaption>
+            </figure>
+
+            <div class="divider" role="separator" aria-label="or">
+                <span>OR</span>
+            </div>
+
+            <figure class="gallery-item">
+                <img src="./assets/free.jpg"
+                     loading="lazy"
+                     alt="Image representing freedom and new opportunities"
+                     width="400"
+                     height="300">
+                <figcaption>The Path to Freedom</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="interactive-demo" aria-labelledby="demo-heading">
+        <h2 id="demo-heading">Choose Your Path</h2>
+    </section>
+
+
+    <section class="contact-section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form id="contact-form"
+              method="post"
+              action="/submit-form"
+              class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       required
+                       maxlength="100"
+                       pattern="[A-Za-z\s'-]+"
+                       aria-required="true">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message"
+                          name="message"
+                          required
+                          minlength="10"
+                          maxlength="1000"
+                          aria-required="true"
+                          rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                Send Message
+            </button>
+        </form>
+    </section>
+</main>
+
+<footer id="footer" role="contentinfo">
+    <!-- Populated by JavaScript -->
+</footer>
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Understanding the Past - Second Chance Employment</title>
+    <meta name="description"
+          content="Addressing the challenges and stigma of past incarceration while focusing on rehabilitation and new opportunities.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#fafafa">
+
+    <style>
+        .photo-container {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            transform-style: preserve-3d;
+            animation: rotate 45s linear infinite;
+            margin: 50px auto;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: perspective(1500px) rotateY(0deg);
+            }
+            100% {
+                transform: perspective(1500px) rotateY(360deg);
+            }
+        }
+
+        .photo-container > span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform-origin: center;
+            transform-style: preserve-3d;
+            transform: rotateY(calc(var(--k) * 30deg)) translateZ(350px);
+        }
+
+        .photo-container span img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+            transition: 2s;
+        }
+
+        .photo-container span:hover img {
+            transform: translateY(-30px) scale(1.1);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(-45deg, #bd3e3b, #a13532, #f8f4db, #ffffff );
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0 50%; }
+        }
+    </style>
+</head>
+<body>
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+    <!-- Populated by JavaScript -->
+</nav>
+
+<main class="main-content">
+    <header class="page-header">
+        <h1>Understanding Our Past</h1>
+        <p class="subtitle">Moving forward begins with acknowledging where we've been</p>
+    </header>
+
+    <div class="gradient-bg">
+        <div class="photo-container" aria-label="Rotating photo gallery">
+            <span style="--k:1;">
+                <img src="assets/img1.jpeg" alt="Journey image 1" loading="lazy">
+            </span>
+            <span style="--k:2;">
+                <img src="assets/img2.jpeg" alt="Journey image 2" loading="lazy">
+            </span>
+            <span style="--k:3;">
+                <img src="assets/img3.PNG" alt="Journey image 3" loading="lazy">
+            </span>
+            <span style="--k:4;">
+                <img src="assets/img4.JPG" alt="Journey image 4" loading="lazy">
+            </span>
+            <span style="--k:5;">
+                <img src="assets/img5.jpeg" alt="Journey image 5" loading="lazy">
+            </span>
+            <span style="--k:6;">
+                <img src="assets/img6.jpeg" alt="Journey image 6" loading="lazy">
+            </span>
+            <span style="--k:7;">
+                <img src="assets/img7.jpeg" alt="Journey image 7" loading="lazy">
+            </span>
+            <span style="--k:8;">
+                <img src="assets/img9.jpg" alt="Journey image 8" loading="lazy">
+            </span>
+            <span style="--k:9;">
+                <img src="assets/first-day-home-1.jpeg" alt="Journey image 9" loading="lazy">
+            </span>
+            <span style="--k:10;">
+                <img src="assets/on-bail.jpg" alt="Journey image 10" loading="lazy">
+            </span>
+            <span style="--k:11;">
+                <img src="assets/nchep.jpg" alt="Journey image 11" loading="lazy">
+            </span>
+            <span style="--k:12;">
+                <img src="assets/bank-rob.jpg" alt="Journey image 12" loading="lazy">
+            </span>
+        </div>
+    </div>
+
+    <article class="content-section">
+        <section class="text-section">
+            <h2>Breaking Down Barriers</h2>
+            <p>The path to rehabilitation and reintegration often faces numerous obstacles.
+                Understanding these challenges is the first step toward overcoming them.</p>
+
+
+            <div class="cta-container">
+
+            </div>
+            <div class="key-points">
+                <h3>Common Challenges</h3>
+                <ul>
+                    <li>Employment barriers</li>
+                    <li>Housing restrictions</li>
+                    <li>Social reintegration</li>
+                    <li>Educational opportunities</li>
+                </ul>
+            </div>
+        </section>
+    </article>
+
+</main>
+
+<footer id="footer" role="contentinfo">
+    <!-- Populated by JavaScript -->
+</footer>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
