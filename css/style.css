@@ -493,6 +493,7 @@ footer {
 /* General responsive image styles */
 img {
     max-width: 100%;
+    border-radius: var(--border-radius);
     height: auto;
     display: block;
 }
