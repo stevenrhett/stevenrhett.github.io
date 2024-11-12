@@ -285,9 +285,9 @@ footer {
 }
 
 .key-points li {
+    list-style: none;
     margin: 0.5rem 0;
     padding: 0.5rem;
-    border-bottom: 1px solid var(--background-color);
 }
 
 .key-points li:last-child {
@@ -592,4 +592,10 @@ img.loaded {
     color: var(--text-dark);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+summery {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
 }
