@@ -1,4 +1,4 @@
-____
+
 <h1 class="center">Hi 👋, my name is Steven</h1>
 <h3 class="center">️Full stack Developer from United States</h3>
 
@@ -10,7 +10,7 @@ I am currently working on an Awareness webpage for Next Chapter.
 
 
 ## STACK
-____
+
 ### Frontend
 - HTML
 - CSS
